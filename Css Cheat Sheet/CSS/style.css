@@ -1,0 +1,102 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+a
+{
+	text-decoration: none;
+	color: yellow;
+}
+a:hover
+{
+	color: rgb(0,0,500);
+}
+a:active
+{
+	color: rgb(500,0,0);
+}
+a:visited
+{
+	color: rgb(0,500,0);
+}
+body
+{
+	background-color: black;
+	color:rgb(0,250,0);
+	font-family:"Comic Sans MS", cursive, sans-serif ;
+	font-size: 25px;
+	font-weight: normal;
+	line-height: 2em;
+}
+.container
+{
+	width: 75%;
+	height: 50%;
+	margin: auto;
+}
+.work1
+{
+	background-color: #333333;
+	color:rgb(250,0,0);
+	border-top:5px rgb(0,250,0) solid;
+	border-bottom:5px rgb(0,250,0) solid;
+	border-left:5px rgb(0,0,250) double;
+	border-right:5px rgb(0,0,250) double;
+	padding: 20px 30px;
+	margin: 30px 0px;
+}
+.work1 h1
+{
+	font-family: Tahoma;
+	font-size:60px;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+	color: rgb(100,500,200);
+	letter-spacing: 0.2em;
+	word-spacing: 0.5em;
+	text-align: center;
+}
+.work2
+{
+	border: 8px rgb(50,40,50) dotted;
+	padding: 1.6em;
+	margin: 2em;
+	background-color: rgb(80,50,80);
+}
+.work2 h1
+{
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+	color: coral;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 0.5em;
+	font-size: 60px;
+	font-style: italic;
+}
+.categories
+{
+	border: 1px #ccc solid;
+	padding:0px;
+	padding-left:200px;
+	border-radius: 15px;
+}
+.categories h2
+{
+	text-align: center;
+}
+.categories ul
+{
+	list-style: none;
+}
+.categories li
+{
+	padding-bottom:6 px;
+	border-bottom:dotted 1px #333;
+	list-style-image: url('../Images/wd.jpg');
+}
